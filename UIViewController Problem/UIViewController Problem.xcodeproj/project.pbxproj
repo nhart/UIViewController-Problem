@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E025D3A6152321220021ACAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E025D3A5152321220021ACAA /* UIKit.framework */; };
+		E025D3A8152321220021ACAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E025D3A7152321220021ACAA /* Foundation.framework */; };
+		E025D3AA152321220021ACAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E025D3A9152321220021ACAA /* CoreGraphics.framework */; };
+		E025D3B0152321220021ACAA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E025D3AE152321220021ACAA /* InfoPlist.strings */; };
+		E025D3B2152321230021ACAA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E025D3B1152321230021ACAA /* main.m */; };
+		E025D3B6152321230021ACAA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E025D3B5152321230021ACAA /* AppDelegate.m */; };
+		E025D3B9152321230021ACAA /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E025D3B7152321230021ACAA /* MainStoryboard.storyboard */; };
+		E025D3BC152321230021ACAA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E025D3BB152321230021ACAA /* ViewController.m */; };
+		E025D3C8152323210021ACAA /* MapPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E025D3C7152323210021ACAA /* MapPopoverViewController.m */; };
+		E025D3CB1523238D0021ACAA /* FullViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E025D3CA1523238D0021ACAA /* FullViewViewController.m */; };
+		E025D3CD1523257B0021ACAA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E025D3CC1523257B0021ACAA /* MapKit.framework */; };
+		E025D3D0152326080021ACAA /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E025D3CF152326080021ACAA /* MapAnnotation.m */; };
+		E025D3D2152335DF0021ACAA /* mapicon-text-group.png in Resources */ = {isa = PBXBuildFile; fileRef = E025D3D1152335DF0021ACAA /* mapicon-text-group.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E025D3A1152321220021ACAA /* UIViewController Problem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIViewController Problem.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E025D3A5152321220021ACAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E025D3A7152321220021ACAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E025D3A9152321220021ACAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E025D3AD152321220021ACAA /* UIViewController Problem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIViewController Problem-Info.plist"; sourceTree = "<group>"; };
+		E025D3AF152321220021ACAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E025D3B1152321230021ACAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E025D3B3152321230021ACAA /* UIViewController Problem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController Problem-Prefix.pch"; sourceTree = "<group>"; };
+		E025D3B4152321230021ACAA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E025D3B5152321230021ACAA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E025D3B8152321230021ACAA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E025D3BA152321230021ACAA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E025D3BB152321230021ACAA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E025D3C6152323210021ACAA /* MapPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPopoverViewController.h; sourceTree = "<group>"; };
+		E025D3C7152323210021ACAA /* MapPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPopoverViewController.m; sourceTree = "<group>"; };
+		E025D3C91523238D0021ACAA /* FullViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullViewViewController.h; sourceTree = "<group>"; };
+		E025D3CA1523238D0021ACAA /* FullViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullViewViewController.m; sourceTree = "<group>"; };
+		E025D3CC1523257B0021ACAA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E025D3CE152326080021ACAA /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
+		E025D3CF152326080021ACAA /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
+		E025D3D1152335DF0021ACAA /* mapicon-text-group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mapicon-text-group.png"; path = "../../../tourpad/IslandStories/Resources/mapicon-text-group.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E025D39E152321220021ACAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E025D3CD1523257B0021ACAA /* MapKit.framework in Frameworks */,
+				E025D3A6152321220021ACAA /* UIKit.framework in Frameworks */,
+				E025D3A8152321220021ACAA /* Foundation.framework in Frameworks */,
+				E025D3AA152321220021ACAA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E025D396152321220021ACAA = {
+			isa = PBXGroup;
+			children = (
+				E025D3AB152321220021ACAA /* UIViewController Problem */,
+				E025D3A4152321220021ACAA /* Frameworks */,
+				E025D3A2152321220021ACAA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E025D3A2152321220021ACAA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E025D3A1152321220021ACAA /* UIViewController Problem.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E025D3A4152321220021ACAA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E025D3CC1523257B0021ACAA /* MapKit.framework */,
+				E025D3A5152321220021ACAA /* UIKit.framework */,
+				E025D3A7152321220021ACAA /* Foundation.framework */,
+				E025D3A9152321220021ACAA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E025D3AB152321220021ACAA /* UIViewController Problem */ = {
+			isa = PBXGroup;
+			children = (
+				E025D3B4152321230021ACAA /* AppDelegate.h */,
+				E025D3B5152321230021ACAA /* AppDelegate.m */,
+				E025D3B7152321230021ACAA /* MainStoryboard.storyboard */,
+				E025D3BA152321230021ACAA /* ViewController.h */,
+				E025D3BB152321230021ACAA /* ViewController.m */,
+				E025D3D1152335DF0021ACAA /* mapicon-text-group.png */,
+				E025D3C91523238D0021ACAA /* FullViewViewController.h */,
+				E025D3CA1523238D0021ACAA /* FullViewViewController.m */,
+				E025D3CE152326080021ACAA /* MapAnnotation.h */,
+				E025D3CF152326080021ACAA /* MapAnnotation.m */,
+				E025D3C6152323210021ACAA /* MapPopoverViewController.h */,
+				E025D3C7152323210021ACAA /* MapPopoverViewController.m */,
+				E025D3AC152321220021ACAA /* Supporting Files */,
+			);
+			path = "UIViewController Problem";
+			sourceTree = "<group>";
+		};
+		E025D3AC152321220021ACAA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E025D3AD152321220021ACAA /* UIViewController Problem-Info.plist */,
+				E025D3AE152321220021ACAA /* InfoPlist.strings */,
+				E025D3B1152321230021ACAA /* main.m */,
+				E025D3B3152321230021ACAA /* UIViewController Problem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E025D3A0152321220021ACAA /* UIViewController Problem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E025D3BF152321230021ACAA /* Build configuration list for PBXNativeTarget "UIViewController Problem" */;
+			buildPhases = (
+				E025D39D152321220021ACAA /* Sources */,
+				E025D39E152321220021ACAA /* Frameworks */,
+				E025D39F152321220021ACAA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "UIViewController Problem";
+			productName = "UIViewController Problem";
+			productReference = E025D3A1152321220021ACAA /* UIViewController Problem.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E025D398152321220021ACAA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = E025D39B152321220021ACAA /* Build configuration list for PBXProject "UIViewController Problem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E025D396152321220021ACAA;
+			productRefGroup = E025D3A2152321220021ACAA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E025D3A0152321220021ACAA /* UIViewController Problem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E025D39F152321220021ACAA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E025D3B0152321220021ACAA /* InfoPlist.strings in Resources */,
+				E025D3B9152321230021ACAA /* MainStoryboard.storyboard in Resources */,
+				E025D3D2152335DF0021ACAA /* mapicon-text-group.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E025D39D152321220021ACAA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E025D3B2152321230021ACAA /* main.m in Sources */,
+				E025D3B6152321230021ACAA /* AppDelegate.m in Sources */,
+				E025D3BC152321230021ACAA /* ViewController.m in Sources */,
+				E025D3C8152323210021ACAA /* MapPopoverViewController.m in Sources */,
+				E025D3CB1523238D0021ACAA /* FullViewViewController.m in Sources */,
+				E025D3D0152326080021ACAA /* MapAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E025D3AE152321220021ACAA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E025D3AF152321220021ACAA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E025D3B7152321230021ACAA /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E025D3B8152321230021ACAA /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E025D3BD152321230021ACAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E025D3BE152321230021ACAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E025D3C0152321230021ACAA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIViewController Problem/UIViewController Problem-Prefix.pch";
+				INFOPLIST_FILE = "UIViewController Problem/UIViewController Problem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E025D3C1152321230021ACAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UIViewController Problem/UIViewController Problem-Prefix.pch";
+				INFOPLIST_FILE = "UIViewController Problem/UIViewController Problem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E025D39B152321220021ACAA /* Build configuration list for PBXProject "UIViewController Problem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E025D3BD152321230021ACAA /* Debug */,
+				E025D3BE152321230021ACAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E025D3BF152321230021ACAA /* Build configuration list for PBXNativeTarget "UIViewController Problem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E025D3C0152321230021ACAA /* Debug */,
+				E025D3C1152321230021ACAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E025D398152321220021ACAA /* Project object */;
+}
