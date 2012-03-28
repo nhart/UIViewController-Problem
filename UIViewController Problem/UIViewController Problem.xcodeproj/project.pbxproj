@@ -19,7 +19,7 @@
 		E025D3CB1523238D0021ACAA /* FullViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E025D3CA1523238D0021ACAA /* FullViewViewController.m */; };
 		E025D3CD1523257B0021ACAA /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E025D3CC1523257B0021ACAA /* MapKit.framework */; };
 		E025D3D0152326080021ACAA /* MapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = E025D3CF152326080021ACAA /* MapAnnotation.m */; };
-		E025D3D2152335DF0021ACAA /* mapicon-text-group.png in Resources */ = {isa = PBXBuildFile; fileRef = E025D3D1152335DF0021ACAA /* mapicon-text-group.png */; };
+		E025D3DD152340C20021ACAA /* mapicon-text-group.png in Resources */ = {isa = PBXBuildFile; fileRef = E025D3DC152340C20021ACAA /* mapicon-text-group.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +43,7 @@
 		E025D3CC1523257B0021ACAA /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		E025D3CE152326080021ACAA /* MapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapAnnotation.h; sourceTree = "<group>"; };
 		E025D3CF152326080021ACAA /* MapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapAnnotation.m; sourceTree = "<group>"; };
-		E025D3D1152335DF0021ACAA /* mapicon-text-group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mapicon-text-group.png"; path = "../../../tourpad/IslandStories/Resources/mapicon-text-group.png"; sourceTree = "<group>"; };
+		E025D3DC152340C20021ACAA /* mapicon-text-group.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mapicon-text-group.png"; path = "../mapicon-text-group.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,9 +95,9 @@
 				E025D3B4152321230021ACAA /* AppDelegate.h */,
 				E025D3B5152321230021ACAA /* AppDelegate.m */,
 				E025D3B7152321230021ACAA /* MainStoryboard.storyboard */,
+				E025D3DC152340C20021ACAA /* mapicon-text-group.png */,
 				E025D3BA152321230021ACAA /* ViewController.h */,
 				E025D3BB152321230021ACAA /* ViewController.m */,
-				E025D3D1152335DF0021ACAA /* mapicon-text-group.png */,
 				E025D3C91523238D0021ACAA /* FullViewViewController.h */,
 				E025D3CA1523238D0021ACAA /* FullViewViewController.m */,
 				E025D3CE152326080021ACAA /* MapAnnotation.h */,
@@ -172,7 +172,7 @@
 			files = (
 				E025D3B0152321220021ACAA /* InfoPlist.strings in Resources */,
 				E025D3B9152321230021ACAA /* MainStoryboard.storyboard in Resources */,
-				E025D3D2152335DF0021ACAA /* mapicon-text-group.png in Resources */,
+				E025D3DD152340C20021ACAA /* mapicon-text-group.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +302,7 @@
 				E025D3C1152321230021ACAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -45,9 +45,6 @@
         //de-select annotation so the map will detect if you tap it again
         [map deselectAnnotation:view.annotation animated:NO];
     }
-    
-    
-    
 }
 - (void)viewDidLoad
 {

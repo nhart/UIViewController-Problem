@@ -15,6 +15,9 @@
 @implementation FullViewViewController
 
 
+-(id)init {
+    return self;
+}
 -(IBAction)removeFullView {
     [self dismissModalViewControllerAnimated:YES];
 }
@@ -33,7 +36,8 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-	return YES;
+    return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft) || 
+    (interfaceOrientation == UIInterfaceOrientationLandscapeRight);
 }
 
 @end

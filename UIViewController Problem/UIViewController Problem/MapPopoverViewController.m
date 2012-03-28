@@ -14,12 +14,13 @@
 
 @implementation MapPopoverViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+- (id)init
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+    self = [super init];
     if (self) {
         // Custom initialization
     }
+    NSLog(@"gggggg");
     return self;
 }
 
@@ -37,7 +38,8 @@
 
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
-	return YES;
+    return (interfaceOrientation == UIInterfaceOrientationLandscapeLeft) || 
+    (interfaceOrientation == UIInterfaceOrientationLandscapeRight);
 }
 
 @end
